@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable = no"/>
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
+<link rel="stylesheet" href="css/index.css"/>
+<script>
+(function () {
+	var html = document.querySelector("html");
+	var width = html.getBoundingClientRect().width;
+	html.style.fontSize = width/16 + "px"; 
+})()
+</script>
+</head>
+<body>
+	<!--loading-->
+	<div id="loading">
+    	<div class="loading-text"></div>
+    </div>
+    <!--music-->
+    <div id="musicIcon">
+        <audio id="myAudio" src="music/piying.mp3" loop></audio>
+        <audio id="myAudio1" src="music/bg.mp3" loop></audio>
+    </div>
+    <!--content-->
+    <div id="wrap">
+        <div class="section section1">
+            <img id="word1" class="word" src="images/P1-wz01.png"/>
+            <img id="word2" class="word" src="images/P1-wz02.png"/>
+            <img id="word3" class="word" src="images/P1-wz03.png"/>
+            <img id="person" src="images/P1-ren.png"/>
+            <img id="bell" src="images/P1-zhong.png"/>
+            <img id="s1-desc" src="images/P1-tt.png"/>
+            <img class="go" src="images/go.png"/>
+        </div>
+        <div class="section section2">
+            <img src="images/P2-wz01.png"/>
+            <img id="mask" src="images/black.png"/>
+            <img id="pp" src="images/P2-wz02NEW.png"/>
+            <img id="pyLeft" src="images/p2-piying-L.png"/>
+            <img id="pyRight" src="images/p2-piying-R.png"/>
+            <img id="light" src="images/P2-guang.png"/>
+            <img src="images/p2-tt.png"/>
+            <div id="s2-click">回忆</div>
+            <img class="go" src="images/go.png"/>
+        </div>
+        <div class="section section3">
+            <img id="laba" src="images/p4-laba@2x.png"/>
+            <img class="text" src="images/P5-tt01.png"/>
+            <img class="text" src="images/P5-tt02.png"/>
+            <img class="text" src="images/P5-tt03.png"/>
+            <img class="text" src="images/P5-tt04.png"/>
+            <img class="text" src="images/P5-tt05.png"/>
+            <div id="s3-click">回味</div>
+            <img src="images/go.png" class="go"/>
+        </div>
+        <div class="section section4">
+            <img class="fw1" src="images/P3-wz01-a.png"/>                        
+            <img class="water water1" src="images/P3-wz02-a.png"/>
+            <img class="water water3" src="images/P3-wz02-c@2x.png"/>
+            <img class="water water2" src="images/P3-wz02-b.png"/>
+            <img class="water water4" src="images/P3-wz02-d@2x.png"/>
+            <img class="fw2" src="images/P3-wz01-b.png"/>
+            <img class="water water5" src="images/P3-wz02-e.png"/>
+            <img class="textL" src="images/P3-tt01.png"/>
+            <img class="textR" src="images/P3-tt02.png"/>
+            <div id="s4-click">回响</div>
+            <img class="go" src="images/go.png"/>
+        </div>
+        <div class="section section5">
+            <img class="mei" src="images/AG-wz01.png"/>
+            <img class="person" src="images/P6-ren.png"/>
+            <div id="car">
+                <img src="images/P6-car.png"/>
+                <img class="wheel" src="images/P6-lun.png"/>
+                <img class="wheel" src="images/P6-lun.png"/>
+            </div>
+            <img class="s5-text" src="images/P6-tt@2x.png"/>
+            <div id="s5-btn">
+                <img src="images/AG-bt01.png"/>
+                <img src="images/AG-bt02.png"/>
+            </div>
+            <img id="logo" src="images/kia-logo@2x.png"/>
+        </div>
+    </div>
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
